@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #8b0000;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+section {
+    margin-top: 20px;
+}
+
+img {
+    border: 3px solid #8b0000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Slider */
+.slider {
+    margin: 20px auto;
+    width: 60%;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    background: #8b0000;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.slider p {
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    animation: slide 12s infinite;
+}
+
+@keyframes slide {
+    0%   { transform: translateY(0%); }
+    20%  { transform: translateY(0%); }
+    25%  { transform: translateY(-100%); }
+    45%  { transform: translateY(-100%); }
+    50%  { transform: translateY(-200%); }
+    70%  { transform: translateY(-200%); }
+    75%  { transform: translateY(-300%); }
+    95%  { transform: translateY(-300%); }
+    100% { transform: translateY(0%); }
+}
+
+/* Mapa */
+.mapa {
+    margin: 40px 0;
+}
+
+.mapa h2 {
+    margin-bottom: 15px;
+    color: #8b0000;
+}
+
+/* Historijat */
+.historijat {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    line-height: 1.6;
+    padding: 15px;
+    background: #fff8f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.historijat h2 {
+    color: #8b0000;
+    margin-top: 20px;
+}
+
+/* Slike u historijatu */
+.hist-slika {
+    width: 100%;
+    max-width: 600px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid #8b0000;
+}
+
